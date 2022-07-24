@@ -76,3 +76,42 @@
     color: white;
     background-color: #DD0000;
 }
+
+.themes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.theme {
+    width: 260px;
+    height: 280px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.theme img {
+    width: 100%;
+}
+
+.theme button {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.theme h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
