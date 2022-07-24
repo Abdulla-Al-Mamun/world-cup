@@ -115,3 +115,54 @@
     margin-top: 10px;
     margin-left: 10px;
 }
+
+
+
+
+
+
+.log {
+    background-color: #161616;
+}
+
+.footer-h1 {
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+    color: white;
+}
+
+hr {
+    border: 1px solid;
+    margin: 50px 0px;
+}
+
+.last-link {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.last-link a {
+    margin: 0px 20px;
+}
+
+.last-link-1 {
+    text-decoration: none;
+    color: white;
+}
+
+.t-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.t-img p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.t-img img {
+    width: 50%;
+    padding: 10px;
+}
