@@ -1,0 +1,44 @@
+/* .background {
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+
+} */
+
+.font-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+
+
+}
+
+.head-text {
+    color: white;
+    width: 60%;
+    border: 20px;
+    border-left: 30px;
+}
+
+.head-text h1 {
+    font-size: 50px;
+}
+
+.watch-now {
+    background-color: rgb(232, 19, 97);
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-decoration: dotted;
+
+}
+
+.font-pic {
+    width: 40%;
+}
+
+.font-pic img {
+    justify-content: center;
+}
