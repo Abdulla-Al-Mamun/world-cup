@@ -1,16 +1,13 @@
-/* .background {
-    background-color: black;
-    border-radius: 20px;
-    width: 100%;
-
-} */
-
+/*--------
+ body 
+ ----------*/
 .font-page {
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: black;
     border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
 
 
 }
@@ -43,6 +40,10 @@
     justify-content: center;
 }
 
+
+/*--------------
+Match Button 
+----------------*/
 .box-margin {
     width: 30%;
     margin-left: 105px;
@@ -75,6 +76,16 @@
 #click {
     color: white;
     background-color: #DD0000;
+}
+
+
+/*-----------
+ main theme 
+ ------------*/
+article {
+    display: flex;
+    margin-top: 100px;
+
 }
 
 .themes {
@@ -116,10 +127,70 @@
     margin-left: 10px;
 }
 
+/*-----------
+ responsive 
+ ------------*/
+
+@media only screen and (max-width: 576px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .background {
+        flex-direction: column;
+    }
+
+    .sec-1 {
+        width: 450px;
+        height: 1086px;
+        flex-direction: column;
+    }
+
+    .sec-1 h1 {
+        text-align: center;
+    }
+
+    .sec-1 p {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .link-button {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .head-img {
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    /*-----------
+     button part
+    -------------*/
+
+    article {
+        flex-direction: column;
+    }
+
+    .themes {
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 80px;
+        margin: auto;
+    }
+
+    .theme {
+        width: 400px;
+        height: 350px;
+    }
+}
 
 
-
-
+/*-----------
+ footer 
+-------------*/
 
 .log {
     background-color: #161616;
