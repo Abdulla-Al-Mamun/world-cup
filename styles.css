@@ -42,3 +42,37 @@
 .font-pic img {
     justify-content: center;
 }
+
+.box-margin {
+    width: 30%;
+    margin-left: 105px;
+}
+
+.mini-background {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #161616;
+}
+
+.match-button {
+    display: grid;
+    justify-content: center;
+}
+
+.match-button a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#click {
+    color: white;
+    background-color: #DD0000;
+}
