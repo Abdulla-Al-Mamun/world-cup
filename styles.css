@@ -80,7 +80,7 @@
 .themes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 10px;
     margin-top: 5px;
     margin-left: 20px;
 
